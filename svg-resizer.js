@@ -52,7 +52,7 @@ var opts = require("nomnom")
 // create output folder if dont exist
 mkdir('-p', path.join(opts.output));
 
-var dpi = 96;
+var dpi = 72;
 var svgFiles = opts._;
 var finalWidth = pxToPt(opts.width || opts.height);
 var finalHeight = pxToPt(opts.height || opts.width);
