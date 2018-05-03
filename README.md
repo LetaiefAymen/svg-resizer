@@ -8,6 +8,8 @@ Svg-resizer requires `libsrvg2` to resize SVG files.
 
 Install it with `sudo apt-get install librsvg2-bin` on Linux or with `brew install librsvg` on OSX.
 
+Also install the dependencies using `npm install` command.
+
 # Usage
 
     $ ./svg-resizer.js -f -x 20 -y 20 -o example/resized/ example/*.svg
